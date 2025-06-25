@@ -28,3 +28,10 @@ SELECT Gender, Name, Total,
 FROM baby_names; 
 
 --6. what are the top 3 most popular names for each gender
+SELECT * FROM
+       
+(SELECT Gender, Name, Total,                                  
+       ROW_NUMBER() OVER(PARTITION BY gender ORDER BY total DESC) AS Popularity  
+FROM baby_names) AS pop
+
+WHERE Populary <= 3;   -- Filter to get only the top 3 popular names per gender
