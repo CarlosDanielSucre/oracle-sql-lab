@@ -34,4 +34,4 @@ SELECT * FROM
        ROW_NUMBER() OVER(PARTITION BY gender ORDER BY total DESC) AS Popularity  
 FROM baby_names) AS pop
 
-WHERE Populary <= 3;   -- Filter to get only the top 3 popular names per gender
+WHERE Popularity <= 3;   -- Filter to get only the top 3 popular names per gender
