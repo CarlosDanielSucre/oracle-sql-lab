@@ -24,7 +24,8 @@ Previous salary (just above theirs) in that department (LAG)
 
 # 💡 Example Output:
 
-
-employee_id |	department_id	| salary	| salary_rank	| max_salary	| prev_salary
-101	        | 10	          | 8000	  | 1	          | 8000        | null
-102	        | 10	          | 5000	  | 2           |	8000        |	8000
+```sql
+employee_id  |  department_id  |  salary  |  salary_rank  |  max_salary  |  prev_salary
+101          |  10             |  8000    |  1            |  8000        |  null
+102          |  10             |  5000    |  2            |  8000        |  8000
+```
