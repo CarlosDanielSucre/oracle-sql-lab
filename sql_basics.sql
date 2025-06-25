@@ -1,4 +1,4 @@
-/* SQL BASICS */
+/* SQL BASICS */  -- The commands in this document can be executed using the database in the "student-grades-db" folder
 
 -- 1 & 2. view the table (SELECT, FROM)
 SELECT * -- columns (* : all) can be specified by table also
