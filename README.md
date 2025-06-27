@@ -1,5 +1,8 @@
-# oracle-sql-lab
-A personal lab to explore Oracle SQL and PL/SQL: analytic functions, procedures, cursors, and more.
+# Oracle SQL Lab
 
+This repository contains practice scripts for advanced SQL and PL/SQL, including:
+- Analytic functions (OVER, PARTITION BY, LAG, etc.)
+- JSON queries using `JSON_TABLE`
+- Procedures, cursors, records, and collections (upcoming)
 
-site of practice https://livesql.oracle.com/next/
+Each folder contains scripts + comments to explain purpose and logic.
