@@ -9,3 +9,9 @@ plications that are associated with them, are referred to as database system, of
 Data within the most common types of databases in operation today is typically modeled in rows and columns in a series of tables  
 to make processing and data queryng efficient. The data can then easily accessed, managed, modified, updated, controlled, and  
 organized. Most databases use **Structure Query Language (SQL)** for weiting and queryng data.
+
+Reference: [Oracle: what is database](https://www.oracle.com/database/what-is-database/)
+
+**Data Defined**
+
+
