@@ -26,7 +26,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 ### 🔰 Phase 1: SQL Fundamentals (Beginner)
 
 #### 📌 Module 1: Introduction to Databases
-- [ ] (What is a database? Data vs. Information.)[concepts/database.md]
+- [ ] [What is a database? Data vs. Information.](concepts/database.md)
 - [ ] Relational model: tables, columns, keys.
 - [ ] RDBMS: MySQL, PostgreSQL, Oracle, SQL Server (focus: Oracle).
 - [ ] Installing Oracle XE + SQL Developer or DBeaver.
