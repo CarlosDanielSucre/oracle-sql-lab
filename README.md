@@ -131,12 +131,13 @@ This learning path is divided into clear **phases** and **modules** to help you 
 ---
 
 ## 📦 Folder Structure
-📁 /scripts
-├── 📂 fundamentals
-├── 📂 joins
-├── 📂 plsql
-├── 📂 procedures
-└── 📂 advanced (analytics, JSON, optimization, etc.)
+
+/scripts
+├── fundamentals
+├── joins
+├── plsql
+├── procedures
+└── advanced (analytics, JSON, optimization, etc.)
 
 
 ---
