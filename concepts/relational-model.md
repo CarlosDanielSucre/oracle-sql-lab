@@ -35,3 +35,32 @@ concurrently appear to be serialized.
 system failure.
 
 These properties enable reliable transaction processing.
+
+##### Reference: [IBM: Relational database](https://www.ibm.com/think/topics/relational-databases)
+
+**What is tables**
+
+**Tables** are database objects that contain all the data in a database. In tables, data is logically organized in a row-and-column   
+format similar to a spreadsheet. Each row represents a unique record, and each column represents a field in the record. For example,  
+a table that contains employee data for a company might contain a row for each employee and columns representing employee information   
+such as employee number, name, address, job title, and home telephone number.
+
+##### Reference: [Learn (Microsoft).](https://learn.microsoft.com/en-us/sql/relational-databases/tables/tables?view=sql-server-ver17)
+
+**What is columns**
+
+In a relational database, a column is a set of data values of a particular type, one value for each row of a table. A column may contain  
+text values, numbers, or even pointers to files in the operating system. Columns typically contain simple types, DC some relational  
+database systems allow columns to contain more complex data types, such as whole documents, images, or even video clips. A column can also  
+be called an attribute.
+
+Each row would provide a data value for each column and would then be understood as a single structured data value. For example, a database  
+that represents company contact information might have the following columns: ID, Company Name, Address Line 1, Address Line 2, City, and   
+Postal Code. More formally, a row is a tuple containing a specific value for each column, for example: (1234, 'Big Company Inc.', '123 East Example Street', '456 West Example Drive', 'Big City', 98765).
+
+**What is keys**
+
+A **key** serves as a unique identifier for each entity instance. Most entities in EF have a single key, which maps to the concept of a  
+primary key in relational databases. Entities can have additional keys beyond the primary key.
+
+##### Reference: [Learn (Microsoft).](https://learn.microsoft.com/en-us/ef/core/modeling/keys?tabs=data-annotations)
