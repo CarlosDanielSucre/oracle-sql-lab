@@ -10,6 +10,7 @@ This repository contains well-structured practice scripts, detailed study module
 
 You'll find:
 
+- ✅ The necessary concepts to understand how databases work
 - ✅ **Hands-on scripts** with comments and examples
 - ✅ **Study roadmap** from beginner to advanced
 - ✅ Focus on **Oracle Database** for real-world use
@@ -27,7 +28,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 
 #### 📌 Module 1: Introduction to Databases
 - [x] [What is a database? Data vs. Information.](concepts/database.md)
-- [ ] [Relational model: tables, columns, keys.](concepts/relational-model.md)
+- [x] [Relational model: tables, columns, keys.](concepts/relational-model.md)
 - [ ] RDBMS: MySQL, PostgreSQL, Oracle, SQL Server (focus: Oracle).
 - [ ] Installing Oracle XE + SQL Developer or DBeaver.
 
