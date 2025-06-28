@@ -32,7 +32,7 @@ Information is the meaning that we get from this data. So for example, if we had
 2008 to 2018, our data would be a list of numbers. If we analyse that data, we can draw meaning out of it to create information.  
 In this example, we could find out whether the number of ibises was the same, or if it had got larger or smaller. 
 
-##### Reference: [UQ Blog: what is information](https://uq.pressbooks.pub/digital-essentials-information-essentials/chapter/what-is-information/)
+##### Reference: [The University of Queensland Blog: what is information](https://uq.pressbooks.pub/digital-essentials-information-essentials/chapter/what-is-information/)
 
 **Data vs Information.**
 
