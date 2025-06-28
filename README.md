@@ -27,7 +27,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 
 #### 📌 Module 1: Introduction to Databases
 - [x] [What is a database? Data vs. Information.](concepts/database.md)
-- [ ] Relational model: tables, columns, keys.
+- [ ] [Relational model: tables, columns, keys.](concepts/relational-model.md)
 - [ ] RDBMS: MySQL, PostgreSQL, Oracle, SQL Server (focus: Oracle).
 - [ ] Installing Oracle XE + SQL Developer or DBeaver.
 
