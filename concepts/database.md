@@ -10,7 +10,7 @@ Data within the most common types of databases in operation today is typically m
 to make processing and data queryng efficient. The data can then easily accessed, managed, modified, updated, controlled, and  
 organized. Most databases use **Structure Query Language (SQL)** for weiting and queryng data.
 
-##### Reference: [Oracle: what is database](https://www.oracle.com/database/what-is-database/)
+##### Reference: [Oracle: what is database.](https://www.oracle.com/database/what-is-database/)
 
 **Data Defined**
 
@@ -18,7 +18,7 @@ organized. Most databases use **Structure Query Language (SQL)** for weiting and
 nalysis, organizations transform raw data points into valuable insights that improve decision-making and drive better business  
 outcomes.
 
-##### Reference: [IBM: What is data](https://www.ibm.com/think/topics/data)
+##### Reference: [IBM: What is data.](https://www.ibm.com/think/topics/data)
 
 **Information Defined**  
 
@@ -32,7 +32,7 @@ Information is the meaning that we get from this data. So for example, if we had
 2008 to 2018, our data would be a list of numbers. If we analyse that data, we can draw meaning out of it to create information.  
 In this example, we could find out whether the number of ibises was the same, or if it had got larger or smaller. 
 
-##### Reference: [The University of Queensland Blog: what is information](https://uq.pressbooks.pub/digital-essentials-information-essentials/chapter/what-is-information/)
+##### Reference: [The University of Queensland Blog: what is information.](https://uq.pressbooks.pub/digital-essentials-information-essentials/chapter/what-is-information/)
 
 **Data vs Information.**
 
