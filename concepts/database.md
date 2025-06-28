@@ -1,4 +1,4 @@
-# What is a database? Data vs. Information.
+## What is a database? Data vs. Information.
 
 **Database Defined**
 
