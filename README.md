@@ -34,7 +34,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 
 #### 📌 Module 2: Basic Queries (SQL)
 - [x] [SELECT, FROM, WHERE, ORDER BY](concepts/module02/basics.md)
-- [x] [Logical operators: AND, OR, NOT](concepts/module01/logical-operators.md)
+- [x] [Logical operators: AND, OR, NOT](concepts/module02/logical-operators.md)
 - [ ] Special filters: LIKE, IN, BETWEEN, IS NULL
 - [ ] Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
 - [ ] GROUP BY + HAVING
