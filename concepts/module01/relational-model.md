@@ -64,3 +64,5 @@ A **key** serves as a unique identifier for each entity instance. Most entities 
 primary key in relational databases. Entities can have additional keys beyond the primary key.
 
 ##### Reference: [Learn (Microsoft).](https://learn.microsoft.com/en-us/ef/core/modeling/keys?tabs=data-annotations)
+
+##### [Back to Main README](../../README.md)
