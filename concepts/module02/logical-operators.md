@@ -1,14 +1,14 @@
-# 🔍 SQL Logical Operators: AND, OR, NOT
+## SQL Logical Operators: AND, OR, NOT
 
 Logical operators are used in SQL to combine or negate conditions in the `WHERE` clause. They allow you to build complex filtering logic by combining simple expressions.
 
----
 
-## 🔸 AND
+
+### 🔸 AND
 
 Returns `TRUE` only if **both** conditions are true.
 
-### ✅ Example:
+#### ✅ Example:
 
 ```sql
 SELECT * FROM employees
@@ -17,13 +17,12 @@ WHERE department_id = 50 AND salary > 5000;
 
 This returns employees who are in department 50 **and** whose salary is greater than 5000.
 
----
 
-## 🔸 OR
+### 🔸 OR
 
 Returns `TRUE` if **at least one** of the conditions is true.
 
-### ✅ Example:
+#### ✅ Example:
 
 ```sql
 SELECT * FROM employees
@@ -34,11 +33,11 @@ This returns employees who are in **either** department 50 **or** 60.
 
 ---
 
-## 🔸 NOT
+### 🔸 NOT
 
 Reverses the result of a condition.
 
-### ✅ Example:
+#### ✅ Example:
 
 ```sql
 SELECT * FROM employees
@@ -49,11 +48,11 @@ This returns employees **not** in department 50.
 
 ---
 
-## 🔁 Combining Operators
+### 🔁 Combining Operators
 
 You can mix logical operators to create complex conditions. Use parentheses to control evaluation order and avoid logic errors.
 
-### ✅ Example:
+#### ✅ Example:
 
 ```sql
 SELECT * FROM employees
@@ -65,7 +64,7 @@ This returns employees who are in department 50 or 60 **and** have a salary grea
 
 ---
 
-## 📊 Operator Precedence
+### 📊 Operator Precedence
 
 Logical operators are evaluated in the following order:
 
@@ -79,7 +78,7 @@ Use parentheses `()` to ensure correct evaluation, especially when mixing AND an
 
 ---
 
-## 📚 References
+### 📚 References
 
 * [Oracle SQL WHERE Clause](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/Conditions.html)
 * [Oracle SQL SELECT Documentation](https://docs.oracle.com/en/database/oracle/oracle-database/23/sqlrf/SELECT.html)
