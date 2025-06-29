@@ -40,3 +40,4 @@ Then, we come to the conclusion, **Data** is the isolated facts, while **Informa
 as stated in the definition above, a clear example is a list of numbers -- on its own, it has no meaning. But with context and pur-  
 pose, that data turns into valuable information.
 
+##### [Back to Main README](../../README.md)
