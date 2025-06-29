@@ -30,9 +30,9 @@ This learning path is divided into clear **phases** and **modules** to help you 
 - [x] [What is a database? Data vs. Information.](concepts/module01/database.md)
 - [x] [Relational model: tables, columns, keys.](concepts/module01/relational-model.md)
 - [x] [RDBMS: MySQL, PostgreSQL, Oracle, SQL Server (focus: Oracle).](concepts/module01/RDBMS.md)
-- [ ] Installing Oracle XE + SQL Developer or DBeaver.
+- [x] [Installing Oracle XE + SQL Developer or DBeaver](concepts/module01/installing.md).
 
-#### 📌 Module 2: Basic Queries (DQL)
+#### 📌 Module 2: Basic Queries (SQL)
 - [ ] SELECT, FROM, WHERE, ORDER BY
 - [ ] Logical operators: AND, OR, NOT
 - [ ] Special filters: LIKE, IN, BETWEEN, IS NULL
