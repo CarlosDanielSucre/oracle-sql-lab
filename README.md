@@ -33,7 +33,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 - [x] [Installing Oracle XE + SQL Developer or DBeaver](concepts/module01/installing.md).
 
 #### 📌 Module 2: Basic Queries (SQL)
-- [x] [SELECT, FROM, WHERE, ORDER BY](concepts/module02/basics.md)
+- [x] [SELECT, FROM, WHERE, ORDER BY](concepts/module02/basic.md)
 - [x] [Logical operators: AND, OR, NOT](concepts/module02/logical-operators.md)
 - [ ] Special filters: LIKE, IN, BETWEEN, IS NULL
 - [ ] Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
