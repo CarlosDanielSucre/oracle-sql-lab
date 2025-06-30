@@ -36,7 +36,7 @@ This learning path is divided into clear **phases** and **modules** to help you 
 - [x] [SELECT, FROM, WHERE, ORDER BY](concepts/module02/basic.md)
 - [x] [Logical operators: AND, OR, NOT](concepts/module02/logical-operators.md)
 - [x] [Special filters: LIKE, IN, BETWEEN, IS NULL](concepts/module02/special-filters.md)
-- [ ] Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()
+- [x] [Aggregates: COUNT(), SUM(), AVG(), MIN(), MAX()](concepts/module02/aggregates.md)
 - [ ] GROUP BY + HAVING
 
 #### 📌 Module 3: Data Manipulation (DML)
