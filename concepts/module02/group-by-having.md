@@ -26,13 +26,13 @@ ORDER BY column1; -- Optional: orders the final result set
 
 #### Explanation:
 
-- 1. Grouping Logic: When you use `GROUP BY`, the database scans the table and collects all rows
+ - 1. Grouping Logic: When you use `GROUP BY`, the database scans the table and collects all rows
 that have identical values in the columns specified in the `GROUP BY` clause into a single group.
 
-- 2. **Aggregate Function Application**: After grouping, any aggregate function in the `SELECT` list
+ - 2. **Aggregate Function Application**: After grouping, any aggregate function in the `SELECT` list
 is applied to the values within each group, producing a single summary value for that group.
 
-- 3. **`SELECT` List Rules**:
+ - 3. **`SELECT` List Rules**:
        - Any column in the `SELECT` list that is not part of an aggregate function **must** also
 be included in the `GROUP BY` clause. This is because for each group, the database needs to know
 non-aggregated columns to display. If you select `Department` and `COUNT(*)`, `Department` defines
