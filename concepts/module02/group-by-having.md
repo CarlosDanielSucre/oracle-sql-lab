@@ -51,7 +51,45 @@ need to be in the `GROUP BY` clause.
  
 #### Example (using a hypothetical `Employees` table):    
 
-|EmployeeID    |  FirstName    |  LastName    |  Department    |  Salary    |  StartDate    |
-|--------------|---------------|--------------|----------------|------------|---------------|
-|1             |John           |Doe           |Sales           |60000       |2020-01-15     |
-|
+![image](https://github.com/user-attachments/assets/f385ced2-6969-4e1c-8523-ab04a94ea04d)
+
+You can include this table with this script:
+
+```sql
+-- SQL Command to Create the Employees Table
+
+-- DROP TABLE IF EXISTS Employees; -- Uncomment this line if you want to drop the table if it already exists
+
+CREATE TABLE Employees (
+    EmployeeID INT PRIMARY KEY,      -- Unique identifier for each employee, set as Primary Key
+    FirstName VARCHAR(50) NOT NULL,  -- Employee's first name, cannot be NULL
+    LastName VARCHAR(50) NOT NULL,   -- Employee's last name, cannot be NULL
+    Department VARCHAR(50),          -- Employee's department (can be NULL)
+    Salary DECIMAL(10, 2) NOT NULL,  -- Employee's salary (e.g., up to 10 digits total, 2 after decimal)
+    StartDate DATE NOT NULL          -- Date when the employee started, cannot be NULL
+);
+
+-- SQL Commands to Insert Data into the Employees Table
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(1, 'John', 'Doe', 'Sales', 60000.00, '2020-01-15');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(2, 'Jane', 'Smith', 'Marketing', 55000.00, '2019-03-20');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(3, 'Peter', 'Jones', 'Sales', 62000.00, '2021-07-01');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(4, 'Alice', 'Brown', 'HR', 58000.00, '2018-11-10');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(5, 'Bob', 'White', 'Marketing', 55000.00, '2020-05-22');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(6, 'Charlie', 'Green', 'Sales', 60000.00, '2022-02-28');
+
+INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
+(7, 'Diana', 'Prince', NULL, 70000.00, '2017-09-01');
+```
+Example 1: Calculate the average salary for each department.
