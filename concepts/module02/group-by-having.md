@@ -81,15 +81,15 @@ INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, Star
 (3, 'Peter', 'Jones', 'Sales', 62000.00, TO_DATE('2021-07-01', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(4, 'Alice', 'Brown', 'HR', 58000.00, '2018-11-10');
+(4, 'Alice', 'Brown', 'HR', 58000.00, TO_DATE('2018-11-10', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(5, 'Bob', 'White', 'Marketing', 55000.00, '2020-05-22');
+(5, 'Bob', 'White', 'Marketing', 55000.00, TO_DATE('2020-05-22', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(6, 'Charlie', 'Green', 'Sales', 60000.00, '2022-02-28');
+(6, 'Charlie', 'Green', 'Sales', 60000.00, TO_DATE('2022-02-28', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(7, 'Diana', 'Prince', NULL, 70000.00, '2017-09-01');
+(7, 'Diana', 'Prince', NULL, 70000.00, TO_DATE('2017-09-01', 'YYYY-MM-DD'));
 ```
 Example 1: Calculate the average salary for each department.
