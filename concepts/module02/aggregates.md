@@ -164,7 +164,7 @@ Result:
 | Sales      | 60666.666666666664      |
 | NULL       | 70000.0                 |
 
-4. `MIN()`
+### 4. `MIN()`
 The `MIN()` function returns the minimum value in a column. It works for numeric, string, and date/time data types.
 
 Syntax:
