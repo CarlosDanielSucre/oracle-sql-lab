@@ -151,6 +151,15 @@ ORDER BY column1;
   7) `SELECT`: Selects the final columns for the remaining groups.
   8) `ORDER BY`: Sorts the final result set.
  
+#### Examples (using the `Employees` table):
 
-
+Example 1: Find departments where the average salary is greater than 60000.  
+```sql
+SELECT Department, AVG(Salary) AS AverageSalary
+FROM Employees
+GROUP BY Department
+HAVING AVG(Salary) > 60000;
+```
+Result:  
+![image](https://github.com/user-attachments/assets/7bec6921-48f3-4099-a12f-bcfeb9a578c5)
 
