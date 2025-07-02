@@ -93,3 +93,64 @@ INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, Star
 (7, 'Diana', 'Prince', NULL, 70000.00, TO_DATE('2017-09-01', 'YYYY-MM-DD'));
 ```
 Example 1: Calculate the average salary for each department.
+
+```SQL
+SELECT Department, AVG(Salary) AS AverageSalary
+FROM Employees
+GROUP BY Department;
+```
+Result:  
+![image](https://github.com/user-attachments/assets/b4bb6087-6704-4228-a075-177bcba56721)
+
+(Explanation: Rows are grouped by their Department value. For each unique Department, AVG(Salary) is calculated over the salaries of employees in that group.)  
+
+Example 2: Count the number of employees in each department and show the minimum salary.  
+
+```SQL
+SELECT Department, COUNT(*) AS NumberOfEmployees, MIN(Salary) AS MinSalary
+FROM Employees
+GROUP BY Department;
+```
+
+Result:  
+![image](https://github.com/user-attachments/assets/32c308ee-1595-42a4-9a0b-efcee8b17268)
+
+### 2. The `HAVING` Clause  
+
+The `HAVING` clause is used to filter groups based on conditions applied to aggregate functions.
+It is similar to the `WHERE` clause, but `WHERE` filters individual rows before grouping, while `HAVING` filters groups of rows after grouping and aggregation.
+
+#### Purpose:
+
+- To apply conditions on the results of aggregate functions.
+- To filter out entire groups that do not meet a specific criterion.
+
+#### Syntax:  
+
+```sql
+SELECT column1, aggregate_function(column2)
+FROM table_name
+GROUP BY column1
+HAVING aggregate_function(column2) condition -- Filters groups based on aggregate results
+ORDER BY column1;
+```
+
+#### Explanation: 
+
+- 1) **Execution Order**: The `HAVING` clause is processed after the `GROUP BY` clause and after the aggregate functions have been calculated for each group.
+  2) **Conditions on Aggregates**: You can use aggregate fuunctions directly in the `HAVING` clause's condition (e.g., `COUNT(*) > 10`, `AVG(Salary) > 50000`). This is its primary distinction from `WHERE`.
+  3) **No Row-Level Filtering**: `HAVING` cannot filter individual rows; it only filters groups.
+ 
+#### Flow of execution (Conceptual, extended):
+
+- 1) `FROM`: Indentifies the source table(s).
+  2) `WHERE`: Filters individual rows.
+  4) `GROUP BY`: Organizes the remaining rows into groups.
+  5) `Aggregatrer Functions`: Calculations are performed for each group.
+  6) `HAVING`: Filters the groups based on the aggregate results.
+  7) `SELECT`: Selects the final columns for the remaining groups.
+  8) `ORDER BY`: Sorts the final result set.
+ 
+
+
+
