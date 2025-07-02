@@ -72,13 +72,13 @@ CREATE TABLE Employees (
 -- SQL Commands to Insert Data into the Employees Table
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(1, 'John', 'Doe', 'Sales', 60000.00, '2020-01-15');
+(1, 'John', 'Doe', 'Sales', 60000.00, TO_DATE('2020-01-15', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(2, 'Jane', 'Smith', 'Marketing', 55000.00, '2019-03-20');
+(2, 'Jane', 'Smith', 'Marketing', 55000.00, TO_DATE('2019-03-20', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
-(3, 'Peter', 'Jones', 'Sales', 62000.00, '2021-07-01');
+(3, 'Peter', 'Jones', 'Sales', 62000.00, TO_DATE('2021-07-01', 'YYYY-MM-DD'));
 
 INSERT INTO Employees (EmployeeID, FirstName, LastName, Department, Salary, StartDate) VALUES
 (4, 'Alice', 'Brown', 'HR', 58000.00, '2018-11-10');
